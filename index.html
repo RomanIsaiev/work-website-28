@@ -834,7 +834,9 @@
                   <span>5500 грн</span>&nbsp;&nbsp; 1100 грн
                 </p>
                 <div class="buy-button-container">
-                  <button class="buy-button link">купити</button>
+                  <button class="buy-button link" data-modal-open-one>
+                    купити
+                  </button>
                   <div class="buy-sale-mark">
                     <picture
                       ><source
@@ -912,7 +914,9 @@
                   <span>9500 грн</span>&nbsp;&nbsp; 1900 грн
                 </p>
                 <div class="buy-button-container">
-                  <button class="buy-button link">купити</button>
+                  <button class="buy-button link" data-modal-open-two>
+                    купити
+                  </button>
                   <div class="buy-sale-mark">
                     <picture
                       ><source
@@ -1171,7 +1175,11 @@
         <div class="social-media-container">
           <ul class="social-list list">
             <li class="list-item">
-              <a href="" target="_blank" rel="nofollow">
+              <a
+                href="https://www.instagram.com/vdznsky"
+                target="_blank"
+                rel="nofollow"
+              >
                 <div class="inta-container">
                   <img
                     src="./src/images/insta-icon.svg"
@@ -1206,11 +1214,49 @@
         </a>
       </div>
     </footer>
+    <!--optimal-->
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close1>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1708955804"></div>
+      </div>
+    </div>
+    <!-- premium -->
+    <div class="backdrop is-hidden" data-modal2>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close2>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1708957809"></div>
+      </div>
+    </div>
     <script type="module" src="./src/js/jquery-3.7.0.min.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
     <script type="module" src="./src/js/scroll.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
-    <!-- <script type="module" src="./src/js/js-modal.js"></script> -->
+    <script type="module" src="./src/js/js-modal.js"></script>
     <script type="module" src="./src/js/swiper.js"></script>
+    <!-- samostiyniy -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1708955804&uuid=2c7033a7-3a72-40f4-9b76-36400b61c559&producer=https://kwiga.com/"
+    ></script>
+    <!--prem  -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1708957809&uuid=b83d7fbc-0394-4359-abc9-3b91cfb10d72&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
