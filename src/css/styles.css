@@ -1543,7 +1543,8 @@ p {
 
   background-image: url(../images/questions-background-mobile-1x.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 1000px;
+  background-size: 100%;
+  background-position: center;
 
   max-width: 428px;
   margin-left: auto;
