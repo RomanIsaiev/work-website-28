@@ -293,7 +293,8 @@ p {
   margin-left: auto;
   margin-right: auto;
 
-  border: none;
+  border: 1px solid #72c4ff;
+  border-radius: 20px;
 
   padding: 20px;
 
@@ -306,7 +307,7 @@ p {
   right: 20px;
 }
 
-.bonus-wrapper::before {
+/* .bonus-wrapper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -319,7 +320,7 @@ p {
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
-}
+} */
 
 .bonus-wrapper .bonus-title {
   color: #72c4ff;
